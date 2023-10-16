@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>PIZZAS</h1>   
+<form method="GET" action="teste.jsp">
+NOME: <input type="text" name="nome"> <br>
+E-MAIL: <input type=" email" name="email"> <br> 
+<br>
+TAMANHO: 
+<input type="radio" name=" tamanho" value="g"> GRANDE (G)
+<input type="radio" name=" tamanho" value="m"> MÉDIO (M)
+<input type="radio" name=" tamanho" value="p"> PEQUENO (P)
+<br>
+
+SABORES: <select name="sabor">
+    <option>CARNE</option>
+    <option>CAMARÃO</option>
+    <option>FRANGO</option>
+<select>
+<br>
+ADICIONAL:
+<input type="checkbox" name="batatas fritas" value="sim"> BATATAS FRITAS
+<select name="batatas fritas">
+<option>CREAM CHEESE</option>
+<option>CHEDDAR</option>
+<select>
+<input type="checkbox" name="refrigerante guaraná" value="sim"> REFRIGERANTE 
+<select name="refrigerante"> 
+<option>GUARANÁ ANTARCTICA</option>
+<option>FANTA</option>
+<option>COCA-COLA</option> 
+<select>
+<br>
+<br>
+FORMA DE PAGAMENTO:
+<select name="forma de pagamento">
+<option> PIX</option>
+<option> CARTÃO DE CÉDITO/DÉBITO</option>
+<option> ESPÉCIE</option>
+</select>
+<br>
+COMENTÁRIO:
+<br> 
+<textarea name=" menssagem" rows="20" cols="70"></textarea> <br>
+DATA DE ENTREGA:
+<input type="date" name="data de entrega"> <br>
+<br>
+<input type="submit">
+<form>
+</body>
+</html>
